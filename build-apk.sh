@@ -22,7 +22,7 @@ cd android
 ./gradlew assembleDebug
 
 echo ""
-echo "✅ APK created at: android/app/build/outputs/apk/debug/app-debug.apk"
+echo "✅ APK created at: android/app/build/outputs/apk/debug/decoy_wallet-debug-1.0.apk"
 echo ""
 echo "To install on your device:"
-echo "  adb install android/app/build/outputs/apk/debug/app-debug.apk"
+echo "  adb install android/app/build/outputs/apk/debug/decoy_wallet-debug-1.0.apk"

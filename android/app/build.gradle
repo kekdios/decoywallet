@@ -20,6 +20,18 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            // Use debug signing for release builds (for testing purposes)
+            // For production distribution, create a proper release keystore
+            signingConfig signingConfigs.debug
+        }
+    }
+    
+    // Customize APK output filename
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            def buildType = variant.buildType.name
+            def versionName = variant.versionName
+            outputFileName = "decoy_wallet-${buildType}-${versionName}.apk"
         }
     }
 }

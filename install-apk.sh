@@ -1,11 +1,19 @@
 #!/bin/bash
 # Install APK on connected Android device
 
-APK_PATH="android/app/build/outputs/apk/debug/app-debug.apk"
+# Try new naming first, fallback to old naming
+APK_PATH="android/app/build/outputs/apk/debug/decoy_wallet-debug-1.0.apk"
+
+if [ ! -f "$APK_PATH" ]; then
+    # Fallback to old naming
+    APK_PATH="android/app/build/outputs/apk/debug/app-debug.apk"
+fi
 
 if [ ! -f "$APK_PATH" ]; then
     echo "❌ APK not found. Building first..."
     ./build-apk.sh
+    # Update path after build
+    APK_PATH="android/app/build/outputs/apk/debug/decoy_wallet-debug-1.0.apk"
 fi
 
 echo "📱 Installing APK on connected device..."
