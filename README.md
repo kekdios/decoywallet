@@ -28,7 +28,7 @@ A Bitcoin decoy/duress wallet application available as both a web app and Androi
 ## Screenshots
 
 ### Transaction History
-![Transaction History](public/transactions.png)
+<img src="public/transactions.png" alt="Transaction History" width="400" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
 
 ## Technology Stack
 
