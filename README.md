@@ -144,4 +144,4 @@ MIT License - see LICENSE file for details
 
 ---
 
-**Built entirely with [Cursor](https://cursor.com/home)**
+**Built entirely with <a href="https://cursor.com/home" target="_blank" rel="noopener noreferrer">Cursor</a>**
