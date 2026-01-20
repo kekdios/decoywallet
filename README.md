@@ -144,4 +144,4 @@ MIT License - see LICENSE file for details
 
 ---
 
-**Built entirely with [Cursor](https://cursor.com)**
+**Built entirely with [Cursor](https://cursor.com/home)**
