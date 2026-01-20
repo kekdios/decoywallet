@@ -24,13 +24,31 @@ This guide explains how to distribute the Bitcoin Vault Android APK outside of a
    - Click "Releases" → "Create a new release"
    - Tag: `v1.0.0`
    - Title: `Bitcoin Vault v1.0.0`
-   - Description: Release notes
+   - Description: Copy from `RELEASE_NOTES_TEMPLATE.md` or write your own
    - Attach file: `releases/decoy_wallet-release-1.0.apk`
    - Click "Publish release"
 
-4. **Users can download**:
+4. **Release Notes**: See `RELEASE_NOTES_TEMPLATE.md` for a ready-to-use template
+
+5. **Users can download**:
    - Direct link: `https://github.com/YOUR_USERNAME/decoywallet/releases/download/v1.0.0/decoy_wallet-release-1.0.apk`
    - Or visit the Releases page and download
+
+### Unpublishing a Release
+
+**Yes, you can unpublish a GitHub release:**
+
+1. **Go to your repository** → "Releases"
+2. **Click on the release** you want to unpublish
+3. **Click "Edit release"** (pencil icon)
+4. **Scroll down** and click **"Unpublish release"** (red button at bottom)
+5. **Confirm** the unpublishing
+
+**Note**: 
+- Unpublishing makes the release draft-only (not visible to public)
+- You can republish it later by editing and clicking "Publish release"
+- The release tag remains in your repository
+- To completely delete, you'd need to delete the git tag separately
 
 ### Benefits
 - ✅ Free
