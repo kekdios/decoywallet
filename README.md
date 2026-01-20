@@ -25,6 +25,11 @@ A Bitcoin decoy/duress wallet application available as both a web app and Androi
 - **Professional UI**: Modern, wallet-like interface with mobile-responsive design
 - **Android App**: Native Android application built with Capacitor
 
+## Screenshots
+
+### Transaction History
+![Transaction History](public/transactions.png)
+
 ## Technology Stack
 
 - **React** - UI framework
