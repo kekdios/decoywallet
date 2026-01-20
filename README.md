@@ -141,3 +141,7 @@ Release APKs are available in the `releases/` directory. These are signed with t
 ## License
 
 MIT License - see LICENSE file for details
+
+---
+
+**Built entirely with [Cursor](https://cursor.com)**
