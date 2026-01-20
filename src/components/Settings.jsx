@@ -79,7 +79,7 @@ const Settings = ({ onClose }) => {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       {/* Header */}
-      <header className="bg-blue-900 text-white">
+      <header className="bg-blue-900 text-white header-safe sticky top-0 z-50">
         <div className="px-4 py-4">
           <div className="flex items-center justify-between">
             <button
